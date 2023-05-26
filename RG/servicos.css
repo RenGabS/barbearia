@@ -1,3 +1,16 @@
-h1{
-        color: blueviolet;
+header {
+        background-color: purple;
+}
+
+nav li {
+        display: inline;
+        margin right 10px;
+}
+        
+        nav a {
+                text-transform: uppercase;
+                color:white;
+                font-weight: bold;
+                font-size: 30px;
+                text-decoration: none;
 }
