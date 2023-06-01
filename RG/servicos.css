@@ -14,3 +14,15 @@ nav li {
                 font-size: 30px;
                 text-decoration: none;
 }
+nav {
+        position: relative; 
+        margin-top:20px;
+        top: 50px;
+        right: 0px;
+}
+
+.caixa{
+        position:relative;
+        width: 940px;
+        margin: 0 auto;
+}
