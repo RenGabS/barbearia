@@ -1,19 +1,25 @@
 header {
-        background-color: yellow;
+        background-color: black;
 }
+
 nav li {
         display: inline;
-        margin right 10px;
+        margin-right: 10px;
+}
+
+nav a:hover {
+     color:yellow;
+        text-decoration: underline;
 }
         
-        nav a {
-                text-transform: uppercase;
-                color:black;
-                font-weight: bold;
-                font-size: 30px;
-                text-decoration: none;
+nav a {
+ text-transform: uppercase;
+ color:black;
+font-weight: bold;
+font-size: 30px;
+text-decoration: none;
 }
-nav {
+nav a {
         position: relative; 
         margin-top:20px;
         top: 50px;
@@ -42,8 +48,23 @@ nav {
         width:30%;
         vertical-align:top;
         margin: 0 1.0%;
-        padding: 30px 0px;
+        padding: 0px;
         box-sizing: border-box;
+        border: 2px solid black;
+        border-radius: 10px;
+}
+.servicos li:hover {
+        border-color: yellow;
+}
+
+.servicos li:hover h2{
+        font-size: 34px;
+        color: yellow
+}
+
+.servicos li:active {
+        border-color: red;
+        border-width: 4px;
 }
 
 .servico img{
