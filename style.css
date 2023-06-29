@@ -3,6 +3,10 @@ h1 {
     color:yellow;
     font-size:68px;
     font-style:italic;
+}
+
+body {
+    color: yellow;
     background-color: black;
 }
 
@@ -19,7 +23,6 @@ h1 {
 }
 
 .contato{
-    ;
     width: auto;
 border-radius: 30px;
 

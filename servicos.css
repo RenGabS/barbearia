@@ -1,5 +1,5 @@
 header {
-        background-color: black;
+        background-color: yellow;
 }
 
 nav li {
@@ -8,7 +8,7 @@ nav li {
 }
 
 nav a:hover {
-     color:yellow;
+     color:white;
         text-decoration: underline;
 }
         
@@ -19,11 +19,11 @@ font-weight: bold;
 font-size: 30px;
 text-decoration: none;
 }
-nav a {
-        position: relative; 
-        margin-top:20px;
+
+nav {
+        position: absolute;
         top: 50px;
-        right: 0px;
+        right: 0;
 }
 
 .caixa{
@@ -37,7 +37,7 @@ nav a {
 }
 
 .servicos{
-        width: 940px;
+        width: 1280px;
         margin: 0 auto;
 
 }
@@ -45,12 +45,12 @@ nav a {
 .servicos li{
         display: inline-block;
         text-align: center;
-        width:30%;
+        width: 30%;
         vertical-align:top;
-        margin: 0 1.0%;
+        margin: 30px 0.8%;
         padding: 0px;
         box-sizing: border-box;
-        border: 2px solid black;
+        border: 2px solid yellow;
         border-radius: 10px;
 }
 .servicos li:hover {
@@ -63,13 +63,13 @@ nav a {
 }
 
 .servicos li:active {
-        border-color: red;
+        border-color: yellow;
         border-width: 4px;
 }
 
 .servico img{
-        width: 200px;
-        height:200px;
+        width: 180px;
+        height:180px;
 }
 
 .servicos h2{
@@ -87,4 +87,20 @@ nav a {
         font-size: 22px;
         font-weight: bold;
         margin-top: 10px;
+}
+
+footer {
+        background-color: yellow;
+        padding: 30px;
+        text-align: center;
+}
+
+footer img {
+        width:10%;
+}
+
+.copyright {
+        font-size: 13px;
+        margin:20px 0 0;
+        color: black;
 }
