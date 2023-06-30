@@ -1,3 +1,7 @@
+main{
+        background-color: black;
+}
+
 header {
         background-color: yellow;
 }
@@ -39,7 +43,7 @@ nav {
 .servicos{
         width: 1280px;
         margin: 0 auto;
-
+        color: yellow
 }
 
 .servicos li{
@@ -80,6 +84,7 @@ nav {
 
 .descricao {
         font-size: 18px;
+        color: yellow;
 }
 
 
@@ -87,6 +92,7 @@ nav {
         font-size: 22px;
         font-weight: bold;
         margin-top: 10px;
+        color: yellow;
 }
 
 footer {
