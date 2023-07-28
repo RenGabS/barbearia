@@ -1,38 +1,112 @@
-h1 {
-    text-align: center;
-    color:yellow;
-    font-size:68px;
-    font-style:italic;
+main{
+        background-color: black;
 }
 
-body {
-    color: yellow;
-    background-color: black;
+header {
+        background-color: yellow;
 }
 
-.imagem {
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    border-color: yellow;
-    border-radius: 40px;
-    border-style:groove;
-    border-width: 40-px;
+nav li {
+        display: inline;
+        margin-right: 10px;
 }
 
-.contato{
-    width: auto;
-border-radius: 30px;
-
-display: inline-block;
+nav a:hover {
+     color:white;
+        text-decoration: underline;
+}
+        
+nav a {
+ text-transform: uppercase;
+ color:black;
+font-weight: bold;
+font-size: 30px;
+text-decoration: none;
 }
 
-.texto{
-    background-color: yellow;
-    width: 50%;
-    border-radius: 30px;
-    margin: auto;
-    text-align: justify;
+nav {
+        position: absolute;
+        top: 50px;
+        right: 0;
+}
+
+.caixa{
+        position:relative;
+        width: 940px;
+        margin: 0 auto;
+}
+
+.logotipo{
+        width: 15%;
+}
+
+.servicos{
+        width: 1280px;
+        margin: 0 auto;
+        color: yellow
+}
+
+.servicos li{
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        vertical-align:top;
+        margin: 30px 0.8%;
+        padding: 0px;
+        box-sizing: border-box;
+        border: 2px solid yellow;
+        border-radius: 10px;
+}
+.servicos li:hover {
+        border-color: yellow;
+}
+
+.servicos li:hover h2{
+        font-size: 34px;
+        color: yellow
+}
+
+.servicos li:active {
+        border-color: yellow;
+        border-width: 4px;
+}
+
+.servico img{
+        width: 180px;
+        height:180px;
+}
+
+.servicos h2{
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 15px;
+}
+
+.descricao {
+        font-size: 18px;
+        color: yellow;
+}
+
+
+.preco {
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: yellow;
+}
+
+footer {
+        background-color: yellow;
+        padding: 30px;
+        text-align: center;
+}
+
+footer img {
+        width:10%;
+}
+
+.copyright {
+        font-size: 13px;
+        margin:20px 0 0;
+        color: black;
 }
