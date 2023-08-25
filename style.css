@@ -1,5 +1,5 @@
 main{
-        background-color: black;
+      background-color: black;
 }
 
 header {
@@ -158,16 +158,24 @@ form label,form legend {
 
 table {
         margin: 20px 0 40px;
+        background-color: yellow;
 }
 
 thead {
-        background-color: yellow;
+        background-color: white;
         color: black;
         font-weight: bold;
 }
 
-td,th {
-        border: 1px solid
-        padding:8px 15px;
+th,td {
+        border: 1px  solid;
+        padding: 8px 15px;
+}
 
+.contato-main {
+        background-color: white;
+}
+
+.cordoquestionario {
+        color: yellow;
 }
